@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    font-family: Arial, sans-serif;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .animate-title {
+    animation: slideDown 1s ease-in-out;
+  }
+  
+  @keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
